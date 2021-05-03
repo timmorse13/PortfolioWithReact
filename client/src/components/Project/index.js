@@ -24,7 +24,7 @@ function Project() {
         <div>
         <Card style={{ width: '28rem' }}>
             <Card.Body>
-            <Card.Img variant="top" src="assets/images/wwt.jpg" />
+            <Card.Img variant="top" src="/assets/images/wwt.jpg" />
                 <Card.Title>We Want Travel!</Card.Title>
                 <Card.Text>
                 This app was created to act as a centralized site where users could easily access lodging accomodations, top rated restaurants and the 5 day forecast for a desired city.               

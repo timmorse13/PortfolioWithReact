@@ -6,3 +6,15 @@
     padding: 110px;
     text-align: center;
 }
+
+.button {
+    background-color: green;
+    transition-duration: 0.4s;
+    border-radius: 32px;
+    padding: 15px;
+}
+
+.button:hover {
+    background-color: gray;
+
+}

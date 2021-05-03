@@ -1,10 +1,13 @@
 import React from "react";
-import './style.css'
+import './style.css';
+import { Jumbotron } from 'react-bootstrap';
 
 function Header() {
     return (
         <div className="jumbotron">
-            <h1>Tim Morse Portfolio</h1>
+            <Jumbotron>
+                <h1><b>Tim Morse Portfolio</b></h1>
+            </Jumbotron>
         </div>
     );
 }
