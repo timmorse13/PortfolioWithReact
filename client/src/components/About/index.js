@@ -3,7 +3,7 @@ import './style.css'
 
 function About() {
     return (
-    <div className="row col-12">
+    <div className="proj row col-12" style={{backgroundImage: "/../../images/java.jpg"}}>
     <div className="One">
         <a name="about-me"><h2>About Me</h2></a>
         <br />

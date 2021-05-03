@@ -6,7 +6,7 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div>
+    <div className="proj" style={{backgroundColor:"black"}}>
       <Header />
       <About />
       <Project />

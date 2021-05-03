@@ -1,4 +1,5 @@
 body {
-    background-image: url("/assets/images/java.jpg");
+    background-image: url("assets\images\java.jpg");
+    background-color: black;
     margin: 0 auto;
 }

@@ -2,14 +2,16 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import './style.css'
+// import Image from '../../../../images'
 
 function Project() {
     return (
-    <div className="projectcards row col-12" style={{textAlign: "center"}}>
-        <div className="">
+    <div className="" style={{textAlign: "center", }}>
+        <div className="projectcards row col-12">
+        <div>
         <Card style={{ width: '28rem' }}>
             <Card.Body>
-            <iframe width="400" height="407" src="https://www.youtube.com/embed/cesHmQdr290" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/cesHmQdr290" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <Card.Title>GoodDeez Delivery Service</Card.Title>
                 <Card.Text>
                 This app was built using SQL database, handlebars, and Javascript. It incorporated front-end and back-end programming, as well as pulling products from an external API. It functions as an online store where consumers can purchase cannabis products.
@@ -24,8 +26,7 @@ function Project() {
         <div>
         <Card style={{ width: '28rem' }}>
             <Card.Body>
-            <Card.Img variant="top" src="/assets/images/wwt.jpg" />
-                <Card.Title>We Want Travel!</Card.Title>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/cqQq3PmK4CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                <Card.Title>We Want Travel!</Card.Title>
                 <Card.Text>
                 This app was created to act as a centralized site where users could easily access lodging accomodations, top rated restaurants and the 5 day forecast for a desired city.               
                  </Card.Text>
@@ -54,6 +55,8 @@ function Project() {
             </ListGroup>
         </Card>
         </div>
+        </div>
+        <div className="btm row col-12">
         <div>
         <Card style={{ width: '28rem' }}>
             {/* <Card.Img variant="top" src="holder.js/100px180?text=Image cap" /> */}
@@ -97,7 +100,10 @@ function Project() {
             </ListGroup>
         </Card>
         </div>
+        </div>
     </div>
+
+ 
     );
 }
 

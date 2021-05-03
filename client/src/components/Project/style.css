@@ -1,0 +1,41 @@
+.jumbotron {
+    width: 100%;
+    background: rgb(0,1,36);
+    background: linear-gradient(90deg, rgba(0,1,36,1) 0%, rgba(121,9,103,1) 51%, rgba(0,212,255,1) 100%);
+    color: white;
+    padding: 110px;
+    text-align: center;
+}
+
+.button {
+    background-color: green;
+    transition-duration: 0.4s;
+    border-radius: 32px;
+    padding: 15px;
+}
+
+.button:hover {
+    background-color: gray;
+
+}
+
+.projectcards {
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.btm {
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+
+}
