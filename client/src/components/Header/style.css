@@ -1,8 +1,0 @@
-.jumbotron {
-    width: 100%;
-    background: rgb(0,1,36);
-    background: linear-gradient(90deg, rgba(0,1,36,1) 0%, rgba(121,9,103,1) 51%, rgba(0,212,255,1) 100%);
-    color: white;
-    padding: 110px;
-    text-align: center;
-}
