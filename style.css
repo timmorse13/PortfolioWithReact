@@ -1,13 +1,5 @@
 body {
-    background-image: url("/assets/images/java.jpg");
+    background-image: url("assets\images\java.jpg");
+    background-color: black;
     margin: 0 auto;
-    font-family: 'Amiri', serif;
 }
-
-button {
-    background-color: green;
-    transition-duration: 0.4s;
-    border-radius: 32px;
-    padding: 15px;
-}
-
